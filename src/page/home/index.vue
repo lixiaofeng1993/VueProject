@@ -3,7 +3,7 @@ import { defineComponent, reactive, ref } from "vue";
 import CountDown from "../../components/CountDown.vue";
 import ImgGirl from "../../components/ImgGirl.vue";
 import { getCalendarAge } from "../../api/calendar";
-import Fishing from "../../components/fishing.vue";
+import Fishing from "../../components/Fishing.vue";
 
 interface DelayLoading {
   delay: number;
